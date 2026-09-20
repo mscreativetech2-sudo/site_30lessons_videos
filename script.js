@@ -16,7 +16,7 @@ const lessonTitles = Array.from({ length: 64 }, (_, index) => {
 // استبدل روابط example.com بروابط الفيديوهات الحقيقية عند إضافتها.
 const lessonVideos = [
   'https://github.com/so2020my/----Iqra-platform/releases/download/v1.0.0/alsadaqa.mp4',
-  'https://github.com/so2020my/----Iqra-platform/releases/download/v1.0.0/belal.mp4',
+  'https://github.com/mscreativetech2-sudo/site_30lessons_videos/releases/download/v1.0.0/Nasheed1.mp4',
   'https://github.com/so2020my/----Iqra-platform/releases/download/v1.0.0/milksaler.mp4',
   ...Array.from({ length: 61 }, (_, index) => `https://example.com/videos/lesson-${String(index + 4).padStart(2, '0')}.mp4`)
 ];
