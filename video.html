@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فيديو الدرس</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="العودة إلى قائمة الدروس">
+        <span class="brand-mark">30</span>
+        <span>ثلاثون درسا</span>
+      </a>
+      <a href="https://iqra-platform.pages.dev/">
+      <span class="header-label">منصة اقرأ</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="container video-content">
+    <a class="breadcrumb" href="index.html"><span aria-hidden="true">→</span> كل الفيديوهات</a>
+    <section class="video-heading" aria-labelledby="video-title">
+      <p class="eyebrow">فيديو تعليمي</p>
+      <h1 id="video-title">عنوان الفيديو</h1>
+    </section>
+
+    <section class="video-frame" aria-label="مشغل الفيديو">
+      <video id="video-player" class="video-player" controls preload="metadata" hidden>
+        متصفحك لا يدعم تشغيل الفيديو.
+      </video>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>فيديوهات ثلاثون درسا</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
