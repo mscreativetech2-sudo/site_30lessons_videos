@@ -15,10 +15,14 @@ const lessonTitles = Array.from({ length: 64 }, (_, index) => {
 
 // استبدل روابط example.com بروابط الفيديوهات الحقيقية عند إضافتها.
 const lessonVideos = [
-  'https://github.com/so2020my/----Iqra-platform/releases/download/v1.0.0/milksaler.mp4',
+  'https://github.com/mscreativetech2-sudo/site_30lessons_videos/releases/download/v1.0.0/story1.mp4',
   'https://github.com/mscreativetech2-sudo/site_30lessons_videos/releases/download/v1.0.0/Nasheed1.mp4',
   'https://github.com/mscreativetech2-sudo/site_30lessons_videos/releases/download/v1.0.0/story2.mp4',
   'https://github.com/mscreativetech2-sudo/site_30lessons_videos/releases/download/v1.0.0/Nasheed2.mp4',
+'https://github.com/mscreativetech2-sudo/site_30lessons_videos/releases/download/v1.0.0/story3.mp4',
+  'https://github.com/mscreativetech2-sudo/site_30lessons_videos/releases/download/v1.0.0/Nasheed3.mp4',
+'https://github.com/mscreativetech2-sudo/site_30lessons_videos/releases/download/v1.0.0/story4.mp4',
+  'https://github.com/mscreativetech2-sudo/site_30lessons_videos/releases/download/v1.0.0/Nasheed4.mp4',
 
 
 
